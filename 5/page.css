@@ -1,0 +1,14 @@
+:root{--ink:#111;--dim:#7a7a80}
+body{color:var(--ink);background:#fff}
+.pane{min-height:100svh;display:grid;place-items:center;padding:10vh 7vw;text-align:center;position:relative}
+h1{font-size:clamp(52px,12vw,150px);line-height:.88;letter-spacing:-.055em;margin:0;font-weight:700}
+.kicker{margin:0 0 28px;font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:#2563eb;font-weight:600}
+.sub{margin:34px auto 0;max-width:18ch;color:var(--dim);font-size:clamp(18px,2.4vw,24px)}
+.full{min-height:100svh;display:grid;place-items:center;padding:0;overflow:hidden}
+.full svg{width:100%;height:100svh}
+.statement{min-height:88svh;display:grid;place-items:center;padding:12vh 7vw;text-align:center}
+.statement h2{font-size:clamp(34px,7vw,86px);line-height:.98;letter-spacing:-.045em;margin:0;font-weight:700;max-width:14ch}
+.statement p{margin:26px auto 0;max-width:24ch;color:var(--dim);font-size:clamp(16px,2vw,20px)}
+.ink{background:#0a0a0b;color:#f2f2f4}
+.ink .statement p,.ink .sub{color:#8b8b93}
+footer{padding:14vh 7vw;text-align:center;color:var(--dim);font-size:13px}

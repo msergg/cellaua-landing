@@ -1,0 +1,20 @@
+:root{--ink:#f5f5f7;--dim:#98a2b3;--card:#12172099}
+body{color:var(--ink);background:#05070d}
+.top{padding:clamp(80px,14vh,170px) 6vw clamp(40px,7vh,80px);text-align:center;position:relative;overflow:hidden}
+.aura{position:absolute;inset:-40% -10% auto;height:120%;filter:blur(70px);opacity:.6}
+.top .in{position:relative}
+.mark{width:52px;margin:0 auto 30px}
+h1{font-size:clamp(42px,8.5vw,96px);line-height:.95;letter-spacing:-.045em;margin:0;font-weight:700}
+.lede{margin:24px auto 0;max-width:24ch;color:var(--dim);font-size:clamp(17px,2.1vw,21px)}
+.bento{display:grid;gap:14px;padding:0 6vw clamp(70px,12vh,140px);max-width:1200px;margin:0 auto;
+  grid-template-columns:repeat(4,1fr)}
+.tile{background:var(--card);border:1px solid #1f2937;border-radius:26px;padding:28px;overflow:hidden;
+  display:flex;flex-direction:column;justify-content:space-between;min-height:260px}
+.tile h3{margin:0 0 8px;font-size:clamp(19px,2.2vw,25px);letter-spacing:-.02em;font-weight:650}
+.tile p{margin:0;color:var(--dim);font-size:15px;max-width:26ch}
+.w2{grid-column:span 2}.w4{grid-column:span 4}
+.tall{min-height:400px}
+.viz{margin-top:22px}
+@media(max-width:900px){.bento{grid-template-columns:repeat(2,1fr)}.w4{grid-column:span 2}}
+@media(max-width:560px){.bento{grid-template-columns:1fr}.w2,.w4{grid-column:span 1}}
+footer{padding:70px 6vw;text-align:center;color:#667085;font-size:13px;border-top:1px solid #131a26}

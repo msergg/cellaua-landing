@@ -1,0 +1,6 @@
+/* shared reset only — each option owns its own look */
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;-webkit-font-smoothing:antialiased;
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+img,svg{display:block;max-width:100%}
+a{color:inherit}
