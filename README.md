@@ -1,6 +1,6 @@
 # cellaua.com
 
-Landing page for **Cella** — a shared family shopping list.
+Landing page for **Cellaua** — a shared family shopping list.
 
 Hand-written HTML and CSS. No framework, no bundler, no dependencies, no build
 step. Nothing sits between the commit and what the browser receives.
