@@ -12,6 +12,9 @@ step. Nothing sits between the commit and what the browser receives.
 | `wrangler.toml` | Deploy config. The only file at the root that is not the site |
 | `public/` | Everything that gets served. The asset root |
 | `public/index.html` | The live page — *Monolith*: dark, one statement per screen |
+| `public/privacy/` | Privacy policy, Ukrainian then English. Required by App Store Connect, which will not accept a submission without the URL |
+| `public/support/` | Support page. The other URL the listing asks for |
+| `public/doc.css` | Shared by the two document pages. They are read start to finish rather than a statement per screen, so they need a measure and a rhythm the landing page does not have |
 | `public/2/` … `public/5/` | Four alternate designs, kept for comparison |
 | `public/404.html` | Served for unknown paths |
 | `public/base.css` | Reset shared by all five. Each page owns the rest of its look |
